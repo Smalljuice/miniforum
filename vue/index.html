@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue</title>
+</head>
+
+<body>
+    <div id="id">
+        <label>Имя</label>
+        <input type="text" v-model="name">
+        <br> <br>
+        <label>Фамилия</label>
+        <input type="text" v-model="surname">
+        <br> <br>
+        <label>Почта</label>
+        <input type="text" v-model="email">
+        <br> <br>
+        <label>Пароль</label>
+        <input type="text" v-model="password">
+        <br> <br>
+        <button v-on:click="registration">Зарегистрироваться</button>
+    </div>
+    
+    <script src="vue.js"></script>
+    <script src="axios.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
